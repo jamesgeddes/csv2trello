@@ -70,17 +70,3 @@ def create_card(auth_values, list_id, name, description, due, complete: bool):
     else:
         return 1
 
-
-# auth = ["d946dacef0ed4835b99cfc675c330297", "8b5a0fb79de9d707007393f134496bda0b62012f2bc12d6697b74c5f2d253f83"]
-#
-# # for board in get_boards(auth):
-# #     print(board)
-# #
-# board = "600c926b28167a6d17ecb577"
-# listid = "600c92809325d75c18825fe3"
-#
-#
-# # for col in get_lists(auth, board):
-# #     print(col)
-#
-# create_card(auth, listid, "test", "description", "2021-12-31T12:45", False)
